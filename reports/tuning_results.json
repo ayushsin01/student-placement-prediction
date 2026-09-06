@@ -1,0 +1,61 @@
+{
+  "classification": {
+    "Logistic Regression": {
+      "best_params": {
+        "model__C": 0.01,
+        "model__solver": "lbfgs"
+      },
+      "test_accuracy": 0.7016666666666667,
+      "test_f1": 0.6991596638655462,
+      "test_roc_auc": 0.7889900101121223
+    },
+    "Gradient Boosting": {
+      "best_params": {
+        "model__learning_rate": 0.05,
+        "model__max_depth": 2,
+        "model__n_estimators": 100
+      },
+      "test_accuracy": 0.7,
+      "test_f1": 0.6989966555183946,
+      "test_roc_auc": 0.7794223866831127
+    }
+  },
+  "regression": {
+    "Ridge Regression": {
+      "best_params": {
+        "model__alpha": 10
+      },
+      "test_mae": 0.8712863346678058,
+      "test_rmse": 1.0820442214865174,
+      "test_r2": 0.5912125745301484
+    },
+    "Lasso Regression": {
+      "best_params": {
+        "model__alpha": 0.01
+      },
+      "test_mae": 0.8738335968946295,
+      "test_rmse": 1.0839490519840997,
+      "test_r2": 0.5897720490404653
+    },
+    "Random Forest Regressor": {
+      "best_params": {
+        "model__max_depth": 8,
+        "model__min_samples_leaf": 3,
+        "model__n_estimators": 200
+      },
+      "test_mae": 0.955135521841566,
+      "test_rmse": 1.1847744198137076,
+      "test_r2": 0.5099066092888447
+    },
+    "Gradient Boosting Regressor": {
+      "best_params": {
+        "model__learning_rate": 0.1,
+        "model__max_depth": 2,
+        "model__n_estimators": 100
+      },
+      "test_mae": 0.925212481825625,
+      "test_rmse": 1.1457478943957278,
+      "test_r2": 0.5416622339991322
+    }
+  }
+}

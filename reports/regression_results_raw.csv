@@ -1,0 +1,7 @@
+Model,MAE,MSE,RMSE,R2
+Linear Regression,0.8695,1.1673,1.0804,0.5924
+Ridge Regression,0.8696,1.1676,1.0806,0.5923
+Lasso Regression,1.3304,2.8667,1.6931,-0.0009
+Decision Tree Regressor,1.3667,2.9455,1.7162,-0.0284
+Random Forest Regressor,0.9569,1.4083,1.1867,0.5083
+Gradient Boosting Regressor,0.9065,1.2651,1.1248,0.5583
