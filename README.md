@@ -179,4 +179,4 @@ streamlit run app.py
 
 ## Author
 
-*(Your name here)*
+*Ayush Singh*
