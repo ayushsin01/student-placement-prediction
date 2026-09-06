@@ -1,4 +1,5 @@
 # Student Placement & Salary Prediction System
+🔗 Live Demo: student-placement-prediction-9oty9r3i4enaasdc3budag.streamlit.app
 
 An end-to-end machine learning project that predicts (1) whether a student will be placed and (2) the expected salary package for placed students, built with a full ML pipeline from data generation through Streamlit deployment.
 
@@ -167,8 +168,9 @@ streamlit run app.py
 
 ## Screenshots
 
-*(Add screenshots of the Home, Placement Prediction, and Salary Prediction pages here once you've run the app.)*
-
+![Home Page](screenshots/homepage.png)
+![Placement Prediction](screenshots/placement_prediction.png)
+![Salary Prediction](screenshots/salary_prediction.png)
 ## Future Improvements
 
 - Replace the synthetic dataset with real institutional placement data if/when available
@@ -179,4 +181,4 @@ streamlit run app.py
 
 ## Author
 
-*(Your name here)*
+*Ayush Singh*
